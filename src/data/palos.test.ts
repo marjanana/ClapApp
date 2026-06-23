@@ -10,8 +10,8 @@ describe("palos", () => {
     }
   });
 
-  it("defines the beginner tangos four-clap map and verdiales silent-beat map", () => {
-    expect(getPatternNotation(paloById.tangos)).toBe("x X x X");
+  it("defines the beginner tangos four-clap-plus-reset map and verdiales silent-beat map", () => {
+    expect(getPatternNotation(paloById.tangos)).toBe("x X x X .");
     expect(getPatternNotation(paloById.verdiales)).toBe(". X X");
   });
 

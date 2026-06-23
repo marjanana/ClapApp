@@ -16,16 +16,16 @@ export const curriculum: Lesson[] = [
   },
   {
     id: "tangos-silent-one",
-    title: "Tangos: Four Claps",
+    title: "Tangos: Four Claps + Reset",
     stage: "Four-beat family",
     paloId: "tangos",
     minutes: 6,
-    focus: "Clap all four beats while keeping 2 and 4 stronger.",
+    focus: "Clap all four beats, then leave the fifth reset beat silent.",
     steps: [
-      "Hear four beats and watch the soft reset clap on beat 1.",
-      "Clap x X x X with full-pulse cues.",
+      "Hear four claps and watch the fifth reset beat stay silent.",
+      "Clap x X x X . with full-pulse cues.",
       "Repeat with accent-only cues.",
-      "Check whether the soft beat 1 stays calm."
+      "Check whether you can wait through the reset before starting again."
     ]
   },
   {
@@ -34,10 +34,10 @@ export const curriculum: Lesson[] = [
     stage: "Four-beat family",
     paloId: "tientos",
     minutes: 6,
-    focus: "Hold the same tangos map at a slower tempo.",
+    focus: "Hold the same four-clap-plus-reset map at a slower tempo.",
     steps: [
       "Count slowly and keep every clap relaxed.",
-      "Clap x X x X for eight cycles.",
+      "Clap x X x X . for eight cycles.",
       "Use cue dropout for two quiet cycles.",
       "Review whether your claps dragged or rushed."
     ]

@@ -19,7 +19,8 @@ describe("scoring", () => {
     const start = 2_000;
 
     expect(scoreClap(start + 1_000, start, 60, palo).expectedBeat).toBe(2);
-    expect(scoreClap(start + 4_000, start, 60, palo).expectedBeat).toBe(1);
+    expect(scoreClap(start + 4_000, start, 60, palo).expectedBeat).toBe(5);
+    expect(scoreClap(start + 5_000, start, 60, palo).expectedBeat).toBe(1);
   });
 
   it("summarizes steady, early, and late tendencies", () => {
