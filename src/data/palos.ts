@@ -9,9 +9,9 @@ export const palos: PaloPattern[] = [
     minBpm: 60,
     maxBpm: 160,
     countLabels: ["1", "2", "3", "4"],
-    pattern: [".", "X", "x", "X"],
+    pattern: ["x", "X", "x", "X"],
     accents: [2, 4],
-    beginnerNote: "Feel beat 1 as the quiet anchor, then clap 2, 3, and 4 without rushing.",
+    beginnerNote: "Clap all four beats: beat 1 is a soft reset clap, while 2 and 4 stay accented.",
     family: "four"
   },
   {
@@ -22,9 +22,9 @@ export const palos: PaloPattern[] = [
     minBpm: 50,
     maxBpm: 120,
     countLabels: ["1", "2", "3", "4"],
-    pattern: [".", "X", "x", "X"],
+    pattern: ["x", "X", "x", "X"],
     accents: [2, 4],
-    beginnerNote: "Use the same map as tangos, but let the slower tempo teach patience.",
+    beginnerNote: "Use the same four-clap map as tangos, but let the slower tempo teach patience.",
     family: "four",
     unlockAfter: "tangos"
   },
